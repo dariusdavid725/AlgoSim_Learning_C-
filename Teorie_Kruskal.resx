@@ -1,0 +1,225 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="richTextBoxTheory.Text" xml:space="preserve">
+    <value>
+Algoritmul Kruskal
+
+Algoritmul Kruskal este un algoritm de găsire a arborelui de acoperire minim al unui graf ponderat conex. Un arbore de acoperire minim (MST) este un subgraf aciclic care include toate nodurile și are costul total minim al muchiilor.
+
+Algoritmul funcționează după cum urmează:
+1. Sortează toate muchiile grafului în ordine crescătoare a costurilor.
+2. Inițializează un arbore de acoperire minim gol.
+3. Parcurge toate muchiile sortate și adaugă-le în arborele de acoperire dacă nu formează un ciclu (folosind un algoritm de tip union-find pentru a detecta ciclurile).
+4. Repetă pasul 3 până când arborele de acoperire conține `n-1` muchii (unde `n` este numărul de noduri).
+
+Complexitatea:
+Complexitatea algoritmului Kruskal este dominată de sortarea muchiilor, care este `O(E log E)`, unde `E` este numărul de muchii. Complexitatea operațiunilor union-find este aproape constantă, `O(α(E))`, unde `α` este funcția inversă a lui Ackermann, foarte lentă în creștere.
+
+Utilizări:
+- Algoritmul Kruskal este utilizat pentru a găsi arborele de acoperire minim în grafuri.
+- Este utilizat în rețele de calculatoare pentru a minimiza costul conexiunilor.
+- De asemenea, este utilizat în proiectarea circuitelor pentru a minimiza lungimea totală a cablajului.
+
+Avantaje:
+- Este simplu de înțeles și implementat.
+- Funcționează bine pe grafuri sparse (cu puține muchii).
+
+Dezavantaje:
+- Poate fi mai lent decât algoritmul Prim pe grafuri dense (cu multe muchii).
+
+</value>
+  </data>
+  <data name="richTextBox1.Text" xml:space="preserve">
+    <value>
+#include &lt;iostream&gt;
+#include &lt;vector&gt;
+#include &lt;algorithm&gt;
+using namespace std;
+
+struct Edge {
+    int u, v, cost;
+    bool operator&lt;(const Edge&amp; other) const {
+        return cost &lt; other.cost;
+    }
+};
+
+class DisjointSet {
+public:
+    DisjointSet(int n) : parent(n), rank(n, 1) {
+        for (int i = 0; i &lt; n; ++i) {
+            parent[i] = i;
+        }
+    }
+
+    int find(int u) {
+        if (parent[u] != u) {
+            parent[u] = find(parent[u]);
+        }
+        return parent[u];
+    }
+
+    void unite(int u, int v) {
+        int rootU = find(u);
+        int rootV = find(v);
+        if (rootU != rootV) {
+            if (rank[rootU] &gt; rank[rootV]) {
+                parent[rootV] = rootU;
+            } else if (rank[rootU] &lt; rank[rootV]) {
+                parent[rootU] = rootV;
+            } else {
+                parent[rootV] = rootU;
+                rank[rootU]++;
+            }
+        }
+    }
+
+private:
+    vector&lt;int&gt; parent;
+    vector&lt;int&gt; rank;
+};
+
+vector&lt;Edge&gt; kruskal(int n, vector&lt;Edge&gt;&amp; edges) {
+    sort(edges.begin(), edges.end());
+    DisjointSet ds(n);
+    vector&lt;Edge&gt; mst;
+    for (Edge&amp; e : edges) {
+        if (ds.find(e.u) != ds.find(e.v)) {
+            ds.unite(e.u, e.v);
+            mst.push_back(e);
+        }
+    }
+    return mst;
+}
+
+int main() {
+    int n, m;
+    cin &gt;&gt; n &gt;&gt; m;
+    vector&lt;Edge&gt; edges(m);
+    for (int i = 0; i &lt; m; ++i) {
+        cin &gt;&gt; edges[i].u &gt;&gt; edges[i].v &gt;&gt; edges[i].cost;
+    }
+    vector&lt;Edge&gt; mst = kruskal(n, edges);
+    for (Edge&amp; e : mst) {
+        cout &lt;&lt; e.u &lt;&lt; ' ' &lt;&lt; e.v &lt;&lt; ' ' &lt;&lt; e.cost &lt;&lt; endl;
+    }
+    return 0;
+}</value>
+  </data>
+</root>
